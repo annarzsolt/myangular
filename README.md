@@ -56,15 +56,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     * > cd C:\Program Files (x86)\Google\Chrome\Application\
     * > chrome.exe --remote-debugging-port=9222
   * run ng serve --sourcemap
-    * change ./.vscode/launch.json to
-    {
-        "name": "Launch Chrome against localhost, with sourcemaps",
-        "type": "chrome",
-        "request": "launch",
-        "url": "http://localhost:4200",
-        "sourceMaps": true,
-        "webRoot": "${workspaceRoot}",
-        "sourceMapPathOverrides": {
-            "webpack:///./*": "${workspaceRoot}\\*"
-        }
-    },
+    * > change ./.vscode/launch.json to
+      >{
+      >    "name": "Launch Chrome against localhost, with sourcemaps",
+      >    "type": "chrome",
+      >    "request": "launch",
+      >    "url": "http://localhost:4200",
+      >    "sourceMaps": true,
+      >    "webRoot": "${workspaceRoot}",
+      >    "sourceMapPathOverrides": {
+      >        "webpack:///./*": "${workspaceRoot}\\*"
+      >    }
+      >},
