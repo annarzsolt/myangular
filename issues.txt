@@ -1,4 +1,4 @@
-TypeScript @Angular Import error
+TypeScript @Angular Import error in VS Code
   * [ts] Cannot find module '@angular/core'**
 
 Solution
@@ -21,7 +21,7 @@ Solution
 
 /** --------------------------------------------------------- **/
 
-Break Point Error VS Code
+Break Point Error in VS Code
 
   * install Debbuger For Chrome extention in vscode
   * Close all instances of chrome and run command line
