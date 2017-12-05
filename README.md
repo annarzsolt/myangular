@@ -57,8 +57,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     > chrome.exe --remote-debugging-port=9222
   * run ng serve --sourcemap
   * change ./.vscode/launch.json to
-    > {
-    >   "name": "Launch Chrome against localhost, with sourcemaps",
+    > { \n
+    >   "name": "Launch Chrome against localhost, with sourcemaps", \n
     >   "type": "chrome",
     >   "request": "launch",
     >   "url": "http://localhost:4200",
