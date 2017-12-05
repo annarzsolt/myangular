@@ -10,6 +10,8 @@ import { HeroService } from './heroes/services/hero.service';
 import { MessagesComponent } from './messages/messages.component';
 import { MessageService } from './messages/services/message.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MenuComponent } from './menu/menu.component';
+import { MenuService } from './menu/services/menu.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppRoutingModule,
 
   ],
-  providers: [HeroService, MessageService],
+  providers: [HeroService, MessageService, MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

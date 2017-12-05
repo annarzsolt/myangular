@@ -1,0 +1,8 @@
+<nav class="nav nav-pills flex-column flex-sm-row my-lg-4">
+  <span *ngFor = "let menuElement of menuElements">
+      <a class="flex-sm-fill text-sm-center nav-link" [class.active]="menuElement.link === route" routerLink = "{{menuElement.link}}">{{menuElement.name}}</a>
+  </span>
+  <!-- <a class="flex-sm-fill text-sm-center nav-link active" routerLink="/">Home</a>
+  <a class="flex-sm-fill text-sm-center nav-link" routerLink="/heroes">Heroes</a>
+  <a class="flex-sm-fill text-sm-center nav-link" routerLink="/dashboard">Dashboard</a> -->
+</nav>
