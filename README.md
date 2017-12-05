@@ -55,8 +55,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * install Debbuger For Chrome extention in vscode
 * Close all instances of chrome and run command line
 * Open cmd
-    `> cd C:\Program Files (x86)\Google\Chrome\Application\`
-    `> chrome.exe --remote-debugging-port=9222`
+    ```> cd C:\Program Files (x86)\Google\Chrome\Application\```
+    ```> chrome.exe --remote-debugging-port=9222```
 * run `ng serve --sourcemap`
 * change `./.vscode/launch.json` to
 ```javascript
