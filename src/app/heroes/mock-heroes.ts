@@ -11,5 +11,7 @@ export const mockHeroes: Hero[] = [
   { id: 18, name: 'Dr IQ' },
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Magma' },
-  { id: 21, name: 'Tornado' }
+  { id: 21, name: 'Tornado' },
+  { id: 22, name: 'Tornado' },
+  { id: 23, name: 'Tornado' }
 ];
