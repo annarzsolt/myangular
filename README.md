@@ -28,20 +28,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Issues
 
-## TypeScript @Angular Import error in VS Code
+### TypeScript @Angular Import error in VS Code
   * [ts] Cannot find module '@angular/core'**
 
-Solution
+#### Solution
   * Open a TypeScript file.
   * Click the TypeScript version to the bottom right in the Status Bar.
   * Choose Use Workspace Version from the message box.
 
-/** --------------------------------------------------------- **/
-
-## Angular CLI Popper.js import error
+### Angular CLI Popper.js import error
   * Unespected token
 
-Solution
+#### Solution
   * Add .angular-cli.json
   * "scripts": [
         "../node_modules/jquery/dist/jquery.slim.min.js",
@@ -49,10 +47,9 @@ Solution
         "../node_modules/bootstrap/dist/js/bootstrap.min.js"   
       ],
 
-/** --------------------------------------------------------- **/
+### Break Point Error in VS Code
 
-## Break Point Error in VS Code
-
+#### Solution
   * install Debbuger For Chrome extention in vscode
   * Close all instances of chrome and run command line
   * Open cmd
