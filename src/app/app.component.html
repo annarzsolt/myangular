@@ -2,10 +2,12 @@
   <nav class="nav nav-pills flex-column flex-sm-row my-lg-4">
     <a class="flex-sm-fill text-sm-center nav-link active" routerLink="/">Home</a>
     <a class="flex-sm-fill text-sm-center nav-link" routerLink="/heroes">Heroes</a>
+    <a class="flex-sm-fill text-sm-center nav-link" routerLink="/dashboard">Dashboard</a>
   </nav>
 
   <div class="pages">
     <router-outlet></router-outlet>
+    <app-messages></app-messages>
   </div>
 
 </div>

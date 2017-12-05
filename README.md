@@ -47,6 +47,16 @@
        }
     },
 ```
+
+## Create Componenet
+* `ng generate component component-name`
+
+## Create Services
+* `ng generate service service-name --module=app`
+
+## Create 
+* `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
 # FirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
